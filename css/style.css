@@ -5,16 +5,18 @@
 }
 
 body {
-  background-color: gray;
-  font-family: "Times New Roman", Times, serif;
+  background-color: 
+  rgb(80, 80, 80);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .box {
   line-height: 1.5;
-  width: 700px;
+  width: 900px;
   background-color: white;
   margin: 40px auto;
-  padding: 40px;
+  padding: 70px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
@@ -24,35 +26,72 @@ header {
   margin-bottom: 20px;
 }
 
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .subtit {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: gray;
 }
 
-section {
-  font-size: 17px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 10px;
-}
-
-.tit {
+h2 {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
   font-weight: bold;
 }
 
-.cursos {
-  margin: 10px;
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+hr {
+  width: 760px;
+  margin-left: 20px auto;
+  margin-right: 20px auto;
+}
+
+section {
+  font-size: 17px;
+  margin: 30px;
+  margin-left: 10px;
+}
+
+.caixa3 {
   display: flex;
+  gap: 10px;
+}
+
+.formacao {
+  flex: 1;  /* cada um ocupa metade */
+  padding: 10px;
+}
+
+.superior {
+  margin-bottom: 20px;
+}
+
+.objetivo {
+  flex: 1;
+  padding: 10px;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+.cursotitulo {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cursos {
+  margin: 20px;
+  margin-left: 30px;
   flex-wrap: wrap;
   gap: 10px
 }
 
-footer{
-  text-align: center;
-}
- 
